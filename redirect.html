@@ -1,0 +1,163 @@
+<HTML>
+
+<HEAD>
+    <meta charset="UTF-8">
+    <title>Mock OTA Search Results</title>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="theme-color" content="#fafafa">
+    <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+    <script type="text/javascript">
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        if (queryString.includes("province")) {
+            window._CTZ = {
+                "enabled": true,
+                "verticals": {
+                    "hotel": {
+                        "active": true,
+                        "search": {
+                            "city": urlParams.get('city'),
+                            "province": urlParams.get('province'),
+                            "country": urlParams.get('country'),
+                            "countryCode": urlParams.get('countryCode'),
+                            "checkInDate": urlParams.get('date1'),
+                            "checkOutDate": urlParams.get('date2'),
+                            "rooms": [
+                                {
+                                    "adults": urlParams.get('guests'),
+                                    "children": 0,
+                                    "infants": 0
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        } else if (queryString) {
+            locationString = urlParams.get('city')
+            locationPart = locationString.split(", ")
+            console.log(locationString)
+            console.log(locationPart)
+            window._CTZ = {
+                "enabled": true,
+                "verticals": {
+                    "hotel": {
+                        "active": true,
+                        "search": {
+                            "city": locationPart[0],
+                            "country": locationPart[1],
+                            "checkInDate": urlParams.get('date1'),
+                            "checkOutDate": urlParams.get('date2'),
+                            "rooms": [
+                                {
+                                    "adults": urlParams.get('guests'),
+                                    "children": 0,
+                                    "infants": 0
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        } else {
+            window._CTZ = {
+                "enabled": true,
+                "verticals": {
+                    "hotel": {
+                        "active": true,
+                        "search": {
+                            "city": "Los Angeles",
+                            "province": "CA",
+                            "country": "United States",
+                            "countryCode": "US",
+                            "checkInDate": "03/20/2021",
+                            "checkOutDate": "03/22/2021",
+                            "rooms": [
+                                {
+                                    "adults": 2,
+                                    "children": 0,
+                                    "infants": 0
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        };
+    </script>
+</HEAD>
+
+<BODY>
+    <style>
+        body {
+            background: url('./img/home.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+
+    <div class="container-md-fluid">
+        <div class="jumbotron jumbotron-fluid"
+            style="text-align: center; background-color: rgba(236, 233, 233, 0.850);">
+            <div class="container">
+                <h1 class="display-4">Mock Online Travel Agency Search Results</h1>
+                <p class="lead">
+                    <script language="javascript">
+                        var host = window.location.host
+                        var subdomain = host.split('.')[0]
+                        if (subdomain == 'ct-mock-ota-1') {
+                            siteId = 'CONTROL'
+                        }
+                        else {
+                            siteId = 'TEST'
+                        }
+                        document.write("This is a " + siteId + " site domain. ")
+                        //const queryString = window.location.search
+                        if (queryString != "") {
+                            document.write("This page has a UCO with search data taken from the URL params.");
+                        }
+                        else {
+                            document.write("This page has a UCO prefilled with search data for Los Angeles.");
+                        }
+                    </script>
+                </p>
+            </div>
+        </div>
+        <br />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="container" style="background-color: rgba(236, 233, 233, 0.850);">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container" style="background-color: rgba(236, 233, 233, 0.850);">
+                        For a link to test back button interstitial:
+                        <ul>
+                            <li><a href="http://ct-approved-business.s3-website-us-east-1.amazonaws.com/next.html">Example
+                                    page with back button</a>
+                            </li>
+                        </ul>
+                        <br />
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container" style="background-color: rgba(236, 233, 233, 0.850);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script async charset="UTF-8" data-publisher="9564e430cb8646a7bc9c3b1c40338c43"
+        src="https://static.clicktripz.com/tag.js"></script>
+</BODY>
+
+</HTML>
