@@ -13,3 +13,4 @@
 
 <a href="https://www.reservations.com/hotel/hyatt-place-denver-downtown?rmcid=rcc16&rmcid=tophotels6&utm_source=googleads&gclid=CjwKCAiAkan9BRAqEiwAP9X6UV5RIAYiWCl2DINBcABGgY79_nBGtRW1Go45lLIi8_Xxd8ne6KWdExoCKhQQAvD_BwE">Link to Publisher Site - Reservations</a>
 
+<a href="https://www.reservationcounter.com/hotels/show/6040b80/gild-hall-a-thompson-hotel?location=new-york-ny&lp=189.00&dist=0.3&pos=1&check-in=2021-05-27&check-out=2021-05-29&wdates=1">Link to Publisher Site - ResCounter</a>
