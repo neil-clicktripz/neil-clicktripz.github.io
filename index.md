@@ -12,3 +12,5 @@
 <a href="https://www.reservationdesk.com/hotel/6040b80/gild-hall-a-thompson-hotel?check-in=2021-06-27&check-out=2021-06-29&pos=1">Link to Publisher Site - ResDesk</a>
 
 <a href="https://www.reservations.com/hotel/hyatt-place-denver-downtown?rmcid=rcc16&rmcid=tophotels6&utm_source=googleads&gclid=CjwKCAiAkan9BRAqEiwAP9X6UV5RIAYiWCl2DINBcABGgY79_nBGtRW1Go45lLIi8_Xxd8ne6KWdExoCKhQQAvD_BwE">Link to Publisher Site - Reservations</a>
+
+<a href="https://en.climate-data.org/europe/united-kingdom/england/london-1">Link to Publisher Site - ClimateData</a>
