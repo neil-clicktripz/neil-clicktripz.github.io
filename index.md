@@ -18,3 +18,5 @@
 <a href="https://mapcarta.com/Orlando">Link to Publisher Site - MapCarta</a>
 
 <a href="https://www.flightconnections.com/flights-from-lhr-to-jfk">Link to Publisher Site - FlightConnections</a>
+
+<a href="https://weather-and-climate.com/average-monthly-Rainfall-Temperature-Sunshine-in-Norway">Link to Publisher Site - Weather and Climate</a>
