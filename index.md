@@ -20,3 +20,5 @@
 <a href="https://www.flightconnections.com/flights-from-lhr-to-jfk">Link to Publisher Site - FlightConnections</a>
 
 <a href="https://weather-and-climate.com/average-monthly-Rainfall-Temperature-Sunshine-in-Norway">Link to Publisher Site - Weather and Climate</a>
+
+<a href="https://www.petitfute.com/r2-ile-de-france/">Link to Publisher Site - PetitFute.com</a>
