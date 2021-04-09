@@ -26,3 +26,5 @@
 <a href="https://www.petitfute.co.uk/v39823-rome/">Link to Publisher Site - PetitFute.co.uk</a>
 
 <a href="https://www.petitfute.es/v39757-madrid/">Link to Publisher Site - PetitFute.es</a>
+
+<a href="https://www.sebogo.es/blog/destinos/12-razones-para-visitar-la-hermosa-montreal">Link to Publisher Site - Sebogo</a>
