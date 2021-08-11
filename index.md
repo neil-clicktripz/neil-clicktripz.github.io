@@ -32,3 +32,6 @@
 <a href="https://ct-mock-ota-4.s3-us-west-1.amazonaws.com/index.html">Link to Super Secret Publisher Site - Mock OTA 4</a>
 
 <a href="https://ct-mock-ota-4.s3-us-west-1.amazonaws.com/index.html?enabled=false">Link to Super Secret Publisher Site (but disabled this time) - Mock OTA 4</a>
+
+
+<a href="http://staging17.justfly.com/">Link to Publisher Site - justfly</a>
