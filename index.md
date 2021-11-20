@@ -36,4 +36,8 @@
 
 <a href="http://staging17.justfly.com/">Link to Publisher Site - justfly</a>
 
+<a href="https://ct-mock-ota-5.s3-us-west-1.amazonaws.com/index.html">Link to Publisher Site - Drip</a>
+
+<a href="https://www.ct-drip.click/">Link to Publisher Site - Drip-FPCS</a>
+
 
