@@ -40,4 +40,8 @@
 
 <a href="https://www.ct-drip.click/">Link to Publisher Site - Drip-FPCS</a>
 
+<a href="https://www.insanelycheapflights.com/air/listing?&d1=LAX&r1=NYC&dt1=11/27/2021&d2=NYC&r2=LAX&dt2=11/29/2021&tripType=ROUNDTRIP&cl=ECONOMY&ad=1&se=0&ch=0&infs=0&infl=0
+">Link to Publisher Site - ICF</a>
+
+
 
